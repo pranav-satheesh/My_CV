@@ -1,4 +1,4 @@
-##My_CV
+## Academic CV
 
 My latest academic CV. 
 
