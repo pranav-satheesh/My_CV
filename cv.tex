@@ -1,0 +1,263 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+\definecolor{royalpurple}{rgb}{0.47, 0.32, 0.66}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Pranav Satheesh} % Your name
+%\address{556 North Shore Drive 1 \\ South Haven, MI 49090} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+% \address{github: loisks317 \\ blog: loisks.blogspot.com}
+
+\address{Department of Physics, University of Florida}
+\address{\href{mailto:pranavsatheesh@ufl.edu}{pranavsatheesh@ufl.edu}
+ \\ \href{https://pranav-satheesh.github.io}{Website} \\ \href{https://github.com/pranav-satheesh}{Github} } % Your phone number and email
+
+
+%\usepackage{fancyhdr}
+% \pagestyle{fancy}
+% \fancyhf{} % Clear the header/footer
+% \fancyfoot[L]{\textit{Last updated on: \today}} % Date on the left side of the footer
+% \fancyfoot[C]{\thepage} % Page number in the center of the footer
+
+
+% \renewcommand{\headrulewidth}{0pt} % Remove the top line
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\fancyfoot[CE,CO]{\footnotesize Pranav Satheesh ~\textbullet~ Curriculum Vitae}
+\fancyfoot[LE,LO]{\footnotesize Mar 2025}
+\fancyfoot[RE,RO]{\footnotesize \thepage}
+
+
+\usepackage[svgnames]{xcolor}
+\definecolor{C2}{RGB}{137, 6, 32}
+\definecolor{C1}{RGB}{0, 109, 119}
+\definecolor{C3}{RGB}{8, 76, 97}
+
+
+\definecolor{C2}{RGB}{54, 79, 107}  % Steel Blue
+\definecolor{C1}{RGB}{123, 104, 238} % Medium Slate Blue
+\definecolor{C3}{RGB}{72, 61, 139}  % Dark Slate Blue
+
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textbf{\textcolor{C2}{\MakeUppercase{#1}}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{1.5em}
+}
+\item[]
+}{
+\end{list}
+}
+
+\newcommand{\conference}[1]{\textcolor{C2}{\textbf{#1}}}
+
+
+\usepackage[colorlinks = true,
+            linkcolor = C3,
+            urlcolor  = C3,
+            citecolor = C3,
+            anchorcolor = C3]{hyperref}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research Interests}
+Massive black hole dynamics, Galaxy-black hole co-evolution, Massive black hole formation, Gravitational Waves
+
+\end{rSection}
+
+\begin{rSection}{Education}
+
+\textbf{University of Florida} \hfill 2022 - Present \\
+\emph{Ph.D. in Physics}\\
+Advisor: Dr. Laura Blecha
+
+\textbf{Indian Institute of Technology Madras} \hfill 2017 - 2022 \\
+\emph{BS-MS Dual Degree in Physics}
+
+\end{rSection}
+
+\begin{rSection}{Appointments}
+
+\textbf{Graduate Research Assistant
+} \hfill 2023 - Present \\
+University of Florida \\
+Department of Physics 
+
+\textbf{Graduate Teaching Assistant
+} \hfill 2022 - 2023 \\
+University of Florida \\
+Department of Physics 
+
+\end{rSection}
+
+\begin{rSection}{Awards and scholarships} \itemsep -2pt 
+{{\color{C3} Steigleman fellowship} for graduate research in theoretical astrophysics in UF Physics} \hfill {\em 2024}\\
+{{\color{C3} Graduate fellowship} for first-year graduate students from UF Physics}\hfill {\em 2022} \\
+{{\color{C3} 62nd Institute day} award for academic performance in Physics from IIT Madras} \hfill {\em 2021} \\
+{Selected for \href{https://swissnex.org/india/thinkswiss/}{ThinkSwiss Research Scholarship}} \hfill {\em 2020}\\
+{Recipient of the \href{http://www.inspire-dst.gov.in/scholarship.html}{INSPIRE-DST Scholarship for Higher Education}} \hfill {\em 2017 - 2022}
+\end{rSection}
+
+
+\begin{rSection}{Publications}
+\begin{itemize}
+    \item \textbf{Satheesh, P.}, Blecha, L., \& Kelley, L. Z. (2025). \emph{Mergers and Recoil in Triple Massive Black Hole Systems from Illustris}, (in prep.)
+    \item Paul, K., Maurya, A., Henry, Q., Sharma, K., \textbf{Satheesh, P.}, Divyajyoti, Kumar, P., \& Mishra, C.K. (2024). \emph{ESIGMAHM: An Eccentric, Spinning inspiral-merger-ringdown waveform model with Higher Modes for the detection and characterization of binary black holes}, \href{https://arxiv.org/abs/2409.13866}{arXiv:2409.13866}.
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{Presentations}
+    \begin{rSubsection}{\textit{Talks}}{}{}{}
+        \item \textbf{Satheesh, P.}, Blecha, L. \emph{Studying gravitational wave and slingshot recoil of massive black holes in cosmological simulations}, \conference{33rd Midwest Relativity meeting, University of Chicago}, November 2023 
+    \end{rSubsection}
+    \begin{rSubsection}{\textit{Posters}}{}{}{}
+        \item \textbf{Satheesh, P.}, Blecha, L., \& Kelley, L. \emph{Mergers, recoil and slingshot in triple massive black hole systems}, \conference{The era of binary supermassive black holes, Aspen Center for Physics} , February 2025
+        \item \textbf{Satheesh, P.}, Blecha, L., \& Kelley, L. \emph{Studying gravitational wave and slingshot recoil of massive black holes in cosmological simulations}, \conference{Nanograv Fall collaboration meeting, University of Michigan}, October 2024
+        \item \textbf{Satheesh, P.}, Gandhi, S., \& Mishra, C.K. \emph{Fisher analysis of eccentric binaries with higher mode frequency domain inspirals}, \conference{LIGO-Virgo-KAGRA collaboration meeting (virtual)},  March 2022 
+        \item \textbf{Satheesh, P.}, Saha, P., Schmid, H. \emph{A spectropolarimetric method for predicting the gravitational wave polarization of LISA verification binaries}, \conference{237th American Astronomical Society meeting}, 2021
+    \end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Professional Memberships}
+{Associate Member,  {\color{C3} Nanograv collaboration}} \hfill {\em 2024 - \rm Present}\\
+{Graduate Member,  {\color{C3} American Astronomical Society}} \hfill {\em 2023 - \rm Present}\\
+{Graduate Member, {\color{C3} American Physical Society}}\hfill {\em 2022-2023} \\
+{Member, {\color{C3} LIGO Scientific Collaboration}} \hfill {\em 2021 - 2022}
+\end{rSection}
+
+
+% \begin{rSection}{Experience}
+
+% \begin{rSubsection}{Insight Data Science}{June 2016 - August 2016}{Fellow}{}
+% \item Developed a program to analyze Fitness Tracker data and compare results with weather information from Weather Underground, providing user with an analysis how to optimize their activity based on past habits.
+% \item Wrote an API to web scrape Polar Loop Fitness Tracker data 
+% \item Data was obtained with Selenium, Data was managed through SQL, Pandas and Scipy were used for analysis, and Matplotlib was used for visualizations
+% \end{rSubsection}
+
+
+%------------------------------------------------
+
+% \begin{rSubsection}{NSF Graduate Research Fellow}{September 2013 - September 2016}{Graduate Reseach Assistant }{}
+% \item Analyzed multiple time series satellite data sets ($>$ 1 Tb of data) to explore low energy ion loss in the inner Plasmasphere 
+% \item Developed an analytic model to demonstrate loss of ions from increased wave activity
+% \item Developed algorithm to properly account for variability in the low energy ion pitch angle measurements when calculating partial ion densities. 
+% \end{rSubsection}
+
+% \end{rSection}
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Technical Skills }
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages &  Python, C/C++ \\
+Software \& Tools &  Mathematica, LaTeX, Git, GitHub, Shell scripting, hpg\\
+High Performance Computing    & Slurm, OpenMP \\
+Python Packages & Pandas, Matplotlib, Numpy, Scipy, Astropy, \\
+  &Scikit-learn \\
+Operating Systems   &  Linux, Windows, macOS \\
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Teaching
+Experience}
+
+Teaching Assistant, \textbf{Code-Astro 2023} \hfill Summer 2023 \\
+\emph{Taught sessions at this software engineering workshop for astronomy \\ supported by
+the Heising-Simons Foundation.}
+
+Teaching Assistant, \textbf{Physics-1 with calculus lab} \hfill Fall 2022 \\
+\emph{Introductory laboratory course for undergraduates taking Physics I \\
+with calculus at the University of Florida.}
+
+Grader, \textbf{Complex Networks} \hfill Spring 2021 \\
+\emph{Graduate-level course at IIT Madras.}
+
+
+\end{rSection}
+
+
+\begin{rSection}{Science communication and outreach}
+    \begin{rSubsection}{Service}{}{}{}
+    \item Organizer, {\color{C3} \textbf{Comscicon Flagship Workshop}} \hfill 2025
+    \item Writer and Illustrator, {\color{C3} \textbf{ComSciWri}} \hfill 2025 - Present
+    \item Author, {\color{C3} \textbf{Astrobites}}\hfill 2023-2025
+        % Astrobites is a science-communication collaboration of graduate students from around the world working to
+        % summarise daily papers in astronomy in a bite-sized accessible format.
+    \item Organizer, {\color{C3} \textbf{Physics Graduate Community}}\hfill 2023-Present
+    \item Head, {\color{C3} \textbf{Horizon: The Physics and Astronomy Club of IIT Madras}} \hfill 2019-2020
+     % I headed the student run physics and astronomy club at IIT Madras under the Center of Innovation (CFI). I played an integral role in engaging the student community through various projects, lectures, workshops, and competitive events.
+    \end{rSubsection}
+
+    \begin{rSubsection}{Science-communication pieces}{}{}{}
+    \item Comic on Feedback 
+    \item Comic on MBH formation
+    \item Comic on GWB
+    \item AAS Nova
+    \item Articles written by as an author for Astrobites. \hfill 2023-2025
+    \end{rSubsection}
+
+    \begin{rSubsection}{Talks}{}{}{}
+     \item \textit{\color{C2} Python for Astronomy}, An \href{https://youtu.be/HfYR0uwYAyM}{Youtube lecture series} offered by me as part of Horizon \hfill Jul 2020
+    \item \textit{\color{C2} Relativity and Gravitation}, \href{https://github.com/HorizonIITM/summer-school-2021}{Horizon-IITM Summer School} \hfill July 2021
+    \item \textit{\color{C2} Analysis of Globular Clusters Using
+    Colour-Magnitude Diagrams}, Shaastra IITM \hfill Jan 2020
+    \end{rSubsection}
+\end{rSection}
+
+
+\begin{rSection}{Workshops Attended }
+    {Nanograv student workshop, Michigan} \hfill {\em 2024}\\
+    {Comscicon flagship workshop, Boston} \hfill {\em 2024}\\
+    {ICTS Summer School on Gravitational Wave Astronomy} \hfill {\em2023}\\
+    {School on Black Holes and Gravitational Waves, Chennai, India} \hfill {\em 2022}\\
+    {Physics of the Early Universe, ICTS (Online)} \hfill {\em 2020}
+    
+ %    \item \href{https://youtu.be/zXDrQ_-WNUg}{\textbf{LISC Continous Gravitational Wave Workshop}} (Online) \hfill Oct 2021
+ %    \item \href{https://sites.psu.edu/paxvii/}{\textbf{Physics and Astrophysics at the Extreme (PAX-VII) Workshop}} (Online) \hfill Aug 2021
+ %    %\item Participant, \textbf{2021 Sagan Exoplanet Summer Virtual Workshop}, NASA Exoplanet Science Institute, California Institute of Technology, July 2021 
+	% \item \href{https://www.icts.res.in/program/gws2021}{\textbf{ICTS Summer School on Gravitational Wave Astronomy}} (Online) \hfill Jul 2021 
+	% \item \href{http://ipta4gw.org/meetings/2021/}{\textbf{IPTA Student Workshop}} (Online) \hfill June 2021 
+	% \item \href{https://www.icts.res.in/program/peu}{\textbf{Physics of the Early Universe}}, ICTS (Online)\hfill  Sep 2020 
+	% \item \href{https://www.icts.res.in/program/gws2020}{\textbf{ICTS Summer School on Gravitational Wave Astrophysics}} \hfill May 2020 
+\end{rSection}
+
+\end{document}
